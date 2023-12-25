@@ -2,8 +2,8 @@ name: Cypress CI
 
 on:
   push:
-    branches:
-      - main # or the branch you want to trigger the CI on
+    # branches:
+    #   - main # or the branch you want to trigger the CI on
 
 jobs:
   cypress:
